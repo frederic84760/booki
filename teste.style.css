@@ -1,0 +1,57 @@
+.activités-marseille {
+    width: 100%;
+    height: 100%;
+    background-color: #0065FC;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 15px;
+}
+
+.activités-marseille .marseille-item {
+     width: 20%;
+    height: 270px;
+    background-color: yellow;
+    margin: 20px;
+    box-sizing: border-box;
+    border-radius: 0 0 20px 20px;
+}
+.marseille-item .reportage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 0px 35px;
+    justify-content: center; /*centrer horizontalement et verticalement l'image*/
+    padding: 0px 0px 35px;
+    width: 297.33px;
+    height: 300.25px;
+    overflow: hidden; /*pour eviter que les elements depasse de ma class element*/
+    text-decoration: none;
+    /* text-align: left; aligner le texte à gauche   */
+    background: #FFFFFF;
+    /* Shadow/Card */
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+
+
+}
+.marseille-item a {
+    display: block;
+    width: 50%;
+    }
+
+    .marseille-item img {
+width: 100%;
+height: 200px;
+object-fit: cover;
+        border-radius: 20px 20px 0 0 ;
+        }
+
+        .marseille-item .reportage h4 {
+            margin-bottom: 0;
+            font-weight: 600;
+            font-family: 'Raleway', sans-serif;
+            font-size: 16px;
+            text-align: left;
+            align-self: flex-start;
+            }
